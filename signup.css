@@ -1,0 +1,167 @@
+*{
+  background-color: #B1D7B4;
+}
+
+.split {
+  height: 100%;
+  width: 55%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  position: fixed; 
+  left: 0;
+  background-color: #B1D7B4;
+}
+
+/* Control the right side */
+.right {
+  position: fixed;
+  right: 0;
+  background-color: #F7F6DC;
+  border-radius: 50px 0px 0px 50px;
+  box-shadow: -10px 0px 50px -25px;
+  /* z-index: -1; */
+}
+
+.uppertext{
+  background-color: #F7F6DC;
+  text-align: center;
+  transform: translateY(50px);
+  font-size: 40px;
+}
+
+#logo{
+  transform: translate(20px);
+}
+
+#form{
+  background-color: #F7F6DC;
+}
+
+#img{
+  left: 200px;
+  width: 770.39px;
+  height: 631.91px;
+  /* transform: rotate(-11.48deg); */
+}
+
+.container1{
+  transform: translateY(90px);
+  background-color: #F7F6DC;
+}
+#btn1{
+  /* padding: 10px; */
+  transform: translateX(160px);
+  width: 220px;
+  /* background: url(Google__G__Logo\ 1.png) no-repeat 1px 1px; */
+}
+#btn2{
+  transform: translateX(210px);
+  width: 220px;
+  /* background: url(facebooklogo\ 1.png) no-repeat 1px 1px; */
+}
+.btn{
+  padding: 10px;
+  padding-left: 40px;
+  background-color: #F7F6DC;
+  border-radius: 10px;
+  height: 40px;
+  color: #A6A6A6;
+  border: 2px solid #A6A6A6;
+}
+.btn:hover{
+  color: #000000;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+span{
+  background-color: #F7F6DC;
+}
+.midtext{
+  position: absolute;
+  color: black;
+  background-color: #F7F6DC;
+  top: 248px;
+  left: 370px;
+  font-size: 30px;
+}
+input{
+  position: absolute;
+  background-color: #F7F6DC;
+  border: none;
+  border-bottom: 2px solid #A6A6A6;
+  left: 180px;
+  height: 30px;
+  width: 450px;
+}
+input[type=text]:focus{
+  outline: none;
+  border-bottom: 2px solid black;
+  color: black;
+}
+#name{
+  top: 330px;
+}
+#email{
+  top: 390px;
+}
+#password{
+  top: 450px;
+}
+#createAcc{
+  position: absolute;
+  /* background-color: #178ca6; */
+  background-color: #0F4A57;
+
+  color: white;
+  left: 180px;
+  top: 535px;
+  height: 45px;
+  width: 455px;
+  border-radius: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: none;
+}
+#createAcc:hover{
+  cursor: pointer;
+  /* background-color: #0F4A57; */
+  background-color: #178ca6;
+  border: 1px solid #178ca6;
+  transition-delay: 0.05s;
+}
+#lowertext{
+  font-family: Poppins;
+  position: absolute;
+  background-color: #F7F6DC;
+  left: 280px;
+  top: 600px;
+  font-size: 20px;
+}
+a{
+  background-color: #F7F6DC;
+  color: #178ca6;
+  text-decoration: none;
+}
+#logo{
+  transform: translate(20px);
+  height: 62px;
+  width: 188px;
+}
+i{
+  background-color: #F7F6DC;
+}
+.icon{
+  position: absolute;
+  left: 15px;
+  font-size: 15px;
+  /* top: 1px; */
+  transform: translateY(-5px);
+}
+
